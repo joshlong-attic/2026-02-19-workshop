@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+<h1> hi </h1>
+<script>
+
+
+window.addEventListener('load', async (evt) => {
+ 	const result = await fetch ('/api/message')
+ 	const data = await result.json()
+ 	console.log (data)
+
+})
+</script>
+</body>
+
+</html>
