@@ -1,0 +1,1 @@
+insert into cats(name) values ('felix');
